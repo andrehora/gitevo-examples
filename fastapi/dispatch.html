@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitEvo - dispatch</title>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+</head>
+<body>
+	
+  <div style="width: 100%; max-width: 650px; margin: 0 auto; text-align: center; background: #FFFFF">
+	  <p><a href="https://github.com/andrehora/gitevo">GitEvo</a>, created at 2025-04-16 15:41:39 -0300</p>
+	  <hr>
+	  <h1 href="#1" style="font-size: 50px;">dispatch</h1>
+   	<div id="chart-wrapper"></div>
+	  <hr>
+	  <p><a href="https://github.com/andrehora/gitevo">GitEvo</a>, created at 2025-04-16 15:41:39 -0300</p>
+  </div>
+
+  <script id="jsonData" type="application/json">
+    [
+   {
+      "title": "Number of endpoints",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "data": [
+               61,
+               91,
+               121,
+               191,
+               223,
+               267
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: mean LOC",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "data": [
+               14.3,
+               15.8,
+               12.9,
+               11.9,
+               11.8,
+               12.0
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: HTTP methods - 2025",
+      "indexAxis": "x",
+      "type": "bar",
+      "display_legend": false,
+      "labels": [
+         "get",
+         "post",
+         "put",
+         "delete",
+         "patch"
+      ],
+      "datasets": [
+         {
+            "data": [
+               110,
+               66,
+               50,
+               39,
+               1
+            ],
+            "backgroundColor": [
+               "#36A2EB",
+               "#FF6384",
+               "#FF9F40",
+               "#FFCE56",
+               "#4BC0C0",
+               "#9966FF",
+               "#C9CBCF"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: HTTP methods",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "label": "get",
+            "data": [
+               25,
+               39,
+               49,
+               78,
+               91,
+               110
+            ]
+         },
+         {
+            "label": "post",
+            "data": [
+               15,
+               22,
+               31,
+               47,
+               55,
+               66
+            ]
+         },
+         {
+            "label": "put",
+            "data": [
+               11,
+               17,
+               23,
+               38,
+               42,
+               50
+            ]
+         },
+         {
+            "label": "delete",
+            "data": [
+               10,
+               13,
+               18,
+               28,
+               33,
+               39
+            ]
+         },
+         {
+            "label": "patch",
+            "data": [
+               0,
+               0,
+               0,
+               0,
+               1,
+               1
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: sync vs. async - 2025",
+      "indexAxis": "x",
+      "type": "bar",
+      "display_legend": false,
+      "labels": [
+         "sync",
+         "async"
+      ],
+      "datasets": [
+         {
+            "data": [
+               259,
+               8
+            ],
+            "backgroundColor": [
+               "#36A2EB",
+               "#FF6384",
+               "#FF9F40",
+               "#FFCE56",
+               "#4BC0C0",
+               "#9966FF",
+               "#C9CBCF"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: sync vs. async",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "label": "sync",
+            "data": [
+               56,
+               86,
+               116,
+               187,
+               219,
+               259
+            ]
+         },
+         {
+            "label": "async",
+            "data": [
+               5,
+               5,
+               5,
+               4,
+               4,
+               8
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: return type in function? - 2025",
+      "indexAxis": "x",
+      "type": "bar",
+      "display_legend": false,
+      "labels": [
+         "without return type",
+         "with return type"
+      ],
+      "datasets": [
+         {
+            "data": [
+               266,
+               1
+            ],
+            "backgroundColor": [
+               "#36A2EB",
+               "#FF6384",
+               "#FF9F40",
+               "#FFCE56",
+               "#4BC0C0",
+               "#9966FF",
+               "#C9CBCF"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: return type in function?",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "label": "without return type",
+            "data": [
+               61,
+               91,
+               121,
+               191,
+               222,
+               266
+            ]
+         },
+         {
+            "label": "with return type",
+            "data": [
+               0,
+               0,
+               0,
+               0,
+               1,
+               1
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: typed vs. untyped parameters",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "data": [
+               220,
+               339,
+               296,
+               453,
+               542,
+               636
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: default parameters? - 2025",
+      "indexAxis": "x",
+      "type": "bar",
+      "display_legend": false,
+      "labels": [
+         "without default",
+         "with default"
+      ],
+      "datasets": [
+         {
+            "data": [
+               619,
+               17
+            ],
+            "backgroundColor": [
+               "#36A2EB",
+               "#FF6384",
+               "#FF9F40",
+               "#FFCE56",
+               "#4BC0C0",
+               "#9966FF",
+               "#C9CBCF"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: default parameters?",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "label": "without default",
+            "data": [
+               64,
+               96,
+               149,
+               228,
+               526,
+               619
+            ]
+         },
+         {
+            "label": "with default",
+            "data": [
+               156,
+               243,
+               147,
+               225,
+               16,
+               17
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: common parameter names - 2025",
+      "indexAxis": "y",
+      "type": "bar",
+      "display_legend": false,
+      "labels": [
+         "db_session",
+         "common",
+         "current_user",
+         "organization",
+         "background_tasks"
+      ],
+      "datasets": [
+         {
+            "data": [
+               207,
+               46,
+               27,
+               26,
+               22
+            ],
+            "backgroundColor": [
+               "#36A2EB",
+               "#FF6384",
+               "#FF9F40",
+               "#FFCE56",
+               "#4BC0C0",
+               "#9966FF",
+               "#C9CBCF"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: common parameter names",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "label": "db_session",
+            "data": [
+               58,
+               88,
+               92,
+               148,
+               174,
+               207
+            ]
+         },
+         {
+            "label": "common",
+            "data": [
+               0,
+               0,
+               22,
+               38,
+               42,
+               46
+            ]
+         },
+         {
+            "label": "current_user",
+            "data": [
+               0,
+               8,
+               9,
+               13,
+               21,
+               27
+            ]
+         },
+         {
+            "label": "organization",
+            "data": [
+               0,
+               0,
+               15,
+               19,
+               24,
+               26
+            ]
+         },
+         {
+            "label": "background_tasks",
+            "data": [
+               5,
+               6,
+               9,
+               14,
+               17,
+               22
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: common parameter types - 2025",
+      "indexAxis": "y",
+      "type": "bar",
+      "display_legend": false,
+      "labels": [
+         "DbSession",
+         "PrimaryKey",
+         "CommonParameters",
+         "CurrentUser",
+         "BackgroundTasks"
+      ],
+      "datasets": [
+         {
+            "data": [
+               206,
+               145,
+               51,
+               27,
+               22
+            ],
+            "backgroundColor": [
+               "#36A2EB",
+               "#FF6384",
+               "#FF9F40",
+               "#FFCE56",
+               "#4BC0C0",
+               "#9966FF",
+               "#C9CBCF"
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: common parameter types",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "label": "DbSession",
+            "data": [
+               0,
+               0,
+               0,
+               0,
+               173,
+               206
+            ]
+         },
+         {
+            "label": "PrimaryKey",
+            "data": [
+               0,
+               0,
+               64,
+               104,
+               123,
+               145
+            ]
+         },
+         {
+            "label": "CommonParameters",
+            "data": [
+               0,
+               0,
+               0,
+               0,
+               44,
+               51
+            ]
+         },
+         {
+            "label": "CurrentUser",
+            "data": [
+               0,
+               0,
+               0,
+               0,
+               21,
+               27
+            ]
+         },
+         {
+            "label": "BackgroundTasks",
+            "data": [
+               5,
+               6,
+               9,
+               14,
+               17,
+               22
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Endpoints: mean number of parameters",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "data": [
+               4.3,
+               4.4,
+               3.4,
+               3.3,
+               2.5,
+               2.4
+            ]
+         }
+      ]
+   },
+   {
+      "title": "Response imports",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": true,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "label": "JSONResponse",
+            "data": [
+               1,
+               2,
+               4,
+               4,
+               4,
+               4
+            ]
+         },
+         {
+            "label": "Response",
+            "data": [
+               3,
+               3,
+               4,
+               4,
+               1,
+               1
+            ]
+         },
+         {
+            "label": "FileResponse",
+            "data": [
+               1,
+               1,
+               1,
+               1,
+               1,
+               1
+            ]
+         },
+         {
+            "label": "StreamingResponse",
+            "data": [
+               0,
+               1,
+               1,
+               1,
+               1,
+               1
+            ]
+         }
+      ]
+   },
+   {
+      "title": "FastAPI imports",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "data": [
+               1,
+               1,
+               1,
+               1,
+               1,
+               5
+            ]
+         }
+      ]
+   },
+   {
+      "title": "APIRouter imports",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "data": [
+               16,
+               21,
+               26,
+               40,
+               43,
+               49
+            ]
+         }
+      ]
+   },
+   {
+      "title": "UploadFile imports",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "data": [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ]
+         }
+      ]
+   },
+   {
+      "title": "BackgroundTasks imports",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "data": [
+               2,
+               4,
+               4,
+               6,
+               4,
+               8
+            ]
+         }
+      ]
+   },
+   {
+      "title": "WebSocket imports",
+      "type": "line",
+      "indexAxis": "x",
+      "display_legend": false,
+      "labels": [
+         "2020",
+         "2021",
+         "2022",
+         "2023",
+         "2024",
+         "2025"
+      ],
+      "datasets": [
+         {
+            "data": [
+               0,
+               0,
+               0,
+               0,
+               0,
+               0
+            ]
+         }
+      ]
+   }
+]
+  </script>
+
+  <script>		
+      try {
+
+        const jsonDataElement = document.getElementById('jsonData');
+        const jsonData = JSON.parse(jsonDataElement.textContent);
+        const chartWrapper = document.getElementById('chart-wrapper');
+
+        // Generate charts
+        jsonData.forEach((chartData, index) => {
+        
+        const hr = document.createElement('hr');
+        const br = document.createElement('br');
+        
+        const chartId = chartData.title.toLowerCase().replace(/\s+/g, '-');
+        const section = document.createElement('div');
+        const link = document.createElement('a');
+        section.id = chartId
+        link.href = `#${chartId}`;
+        link.textContent = '🔗';
+        link.style = 'all: unset; cursor: pointer;'
+
+        chartWrapper.appendChild(hr);
+        chartWrapper.appendChild(br);
+        chartWrapper.appendChild(link);
+        chartWrapper.appendChild(section);
+		  
+          // Create chart canvas
+          const canvas = document.createElement('canvas');
+          canvas.id = `chart-${index}`;
+          chartWrapper.appendChild(canvas);
+		  
+          // Create the chart
+          // Chart.register(ChartDataLabels);
+          new Chart(canvas, {
+            type: chartData.type,
+            data: {
+              labels: chartData.labels,
+              datasets: chartData.datasets,
+            },
+            options: {
+              indexAxis: chartData.indexAxis,
+              responsive: true,
+              plugins: {
+                  colors: {
+                    enabled: true,
+                  },
+                  legend: {
+                    display: chartData.display_legend,
+                  },
+                  tooltip: {
+                    enabled: true,
+                    animation: false
+                  },
+                  title: {
+                    display: true,
+                    text: chartData.title,
+                    font: {
+                      size: 20
+                    }
+                  },
+                  subtitle: {
+                    display: true,
+                    text: chartData.subtitle,
+                  }
+              }
+            }
+          });
+        });
+      } catch (error) {
+        console.error('Error loading JSON data:', error);
+      }
+  </script>
+</body>
+</html>
