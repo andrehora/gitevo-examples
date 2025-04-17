@@ -41,6 +41,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Storybook](https://andrehora.github.io/gitevo-examples/typescript/storybook.html)
 - [VScode](https://andrehora.github.io/gitevo-examples/typescript/vscode.html)
 - [Vue-core](https://andrehora.github.io/gitevo-examples/typescript/vuejs-core.html)
+- [Microsoft TypeScript](https://andrehora.github.io/gitevo-examples/typescript/typescript.html)
 
 ## Java
 - [Spring Boot](https://andrehora.github.io/gitevo-examples/java/spring-boot.html)
