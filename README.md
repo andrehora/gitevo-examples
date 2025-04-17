@@ -3,21 +3,49 @@
 This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 
 ## Python
-- [Django](https://andrehora.github.io/gitevo-examples/python/django.html)
-- [FastAPI](https://andrehora.github.io/gitevo-examples/python/fastapi.html)
 - [Flask](https://andrehora.github.io/gitevo-examples/python/flask.html)
+- [FastAPI](https://andrehora.github.io/gitevo-examples/python/fastapi.html)
+- [Django](https://andrehora.github.io/gitevo-examples/python/django.html)
 - [Rich](https://andrehora.github.io/gitevo-examples/python/rich.html)
+- [Pandas](https://andrehora.github.io/gitevo-examples/python/pandas.html)
+- [PyTorch](https://andrehora.github.io/gitevo-examples/python/pytorch.html)
+- [NumPy](https://andrehora.github.io/gitevo-examples/python/numpy.html)
+- [TensorFlow](https://andrehora.github.io/gitevo-examples/python/tensorflow.html)
+- [Keras](https://andrehora.github.io/gitevo-examples/python/keras.html)
+- [scikit-learn](https://andrehora.github.io/gitevo-examples/python/scikit-learn.html)
+- [Pytest](https://andrehora.github.io/gitevo-examples/python/pytest.html)
+- [CPython](https://andrehora.github.io/gitevo-examples/python/cpython.html)
 
 ## JavaScript
+- [React](https://andrehora.github.io/gitevo-examples/javascript/react.html)
+- [Next.js](https://andrehora.github.io/gitevo-examples/javascript/nextjs.html)
+- [Svelte](https://andrehora.github.io/gitevo-examples/javascript/svelte.html)
 - [Express](https://andrehora.github.io/gitevo-examples/javascript/express.html)
+- [Node](https://andrehora.github.io/gitevo-examples/javascript/node.html)
+- [Webpack](https://andrehora.github.io/gitevo-examples/javascript/webpack.html)
+- [Bruno](https://andrehora.github.io/gitevo-examples/javascript/bruno.html)
 
 ## TypeScript
-- [vuejs-core](https://andrehora.github.io/gitevo-examples/typescript/vuejs-core.html)
+- [Angular](https://andrehora.github.io/gitevo-examples/typescript/angular.html)
+- [Playwright](https://andrehora.github.io/gitevo-examples/typescript/playwright.html)
+- [Storybook](https://andrehora.github.io/gitevo-examples/typescript/storybook.html)
+- [VScode](https://andrehora.github.io/gitevo-examples/typescript/vscode.html)
+- [Vue-core](https://andrehora.github.io/gitevo-examples/typescript/vuejs-core.html)
 
 ## Java
+- [Spring Boot](https://andrehora.github.io/gitevo-examples/java/spring-boot.html)
+- [Elasticsearch](https://andrehora.github.io/gitevo-examples/java/elasticsearch.html)
+- [RxJava](https://andrehora.github.io/gitevo-examples/java/rxjava.html)
+- [Apache Dubbo](https://andrehora.github.io/gitevo-examples/java/dubbo.html)
+- [Google Guava](https://andrehora.github.io/gitevo-examples/java/guava.html)
 - [Mockito](https://andrehora.github.io/gitevo-examples/java/mockito.html)
 
 ## FastAPI
-- [Dispatch](https://andrehora.github.io/gitevo-examples/fastapi/dispatch.html)
 - [FastAPI](https://andrehora.github.io/gitevo-examples/fastapi/fastapi.html)
+- [Dispatch](https://andrehora.github.io/gitevo-examples/fastapi/dispatch.html)
 - [full-stack-fastapi-template](https://andrehora.github.io/gitevo-examples/fastapi/full-stack-fastapi-template.html)
+- [Google weather-tools](https://andrehora.github.io/gitevo-examples/fastapi/weather-tools.html)
+- [Polar](https://andrehora.github.io/gitevo-examples/fastapi/polar.html)
+- [FastUI](https://andrehora.github.io/gitevo-examples/fastapi/fastui.html)
+- [Bitcart](https://andrehora.github.io/gitevo-examples/fastapi/bitcart.html)
+- [Bali](https://andrehora.github.io/gitevo-examples/fastapi/bali.html)
