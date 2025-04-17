@@ -19,6 +19,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Celery](https://andrehora.github.io/gitevo-examples/python/celery.html)
 - [Locust](https://andrehora.github.io/gitevo-examples/python/locust.html)
 - [OpenAI Python API](https://andrehora.github.io/gitevo-examples/python/openai-python.html)
+- [Poetry](https://andrehora.github.io/gitevo-examples/python/poetry.html)
 
 
 
