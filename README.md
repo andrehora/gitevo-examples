@@ -34,6 +34,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Mozilla pdf.js](https://andrehora.github.io/gitevo-examples/javascript/pdfjs.html)
 - [Phaser](https://andrehora.github.io/gitevo-examples/javascript/phaser.html)
 - [Microsoft Web Dev for Beginners](https://andrehora.github.io/gitevo-examples/javascript/web-dev-for-beginners.html)
+- [Create React App](https://andrehora.github.io/gitevo-examples/javascript/create-react-app.html)
 
 ## TypeScript
 - [Angular](https://andrehora.github.io/gitevo-examples/typescript/angular.html)
