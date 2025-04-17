@@ -18,6 +18,9 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Apache Airflow](https://andrehora.github.io/gitevo-examples/python/airflow.html)
 - [Celery](https://andrehora.github.io/gitevo-examples/python/celery.html)
 - [Locust](https://andrehora.github.io/gitevo-examples/python/locust.html)
+- [OpenAI Python API](https://andrehora.github.io/gitevo-examples/python/openai-python.html)
+
+
 
 ## JavaScript
 - [React](https://andrehora.github.io/gitevo-examples/javascript/react.html)
