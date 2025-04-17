@@ -42,6 +42,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Storybook](https://andrehora.github.io/gitevo-examples/typescript/storybook.html)
 - [VScode](https://andrehora.github.io/gitevo-examples/typescript/vscode.html)
 - [Vue-core](https://andrehora.github.io/gitevo-examples/typescript/vuejs-core.html)
+- [PixiJS](https://andrehora.github.io/gitevo-examples/typescript/pixijs.html)
 - [Microsoft TypeScript](https://andrehora.github.io/gitevo-examples/typescript/typescript.html)
 - [Facebook Docusaurus](https://andrehora.github.io/gitevo-examples/typescript/docusaurus.html)
 
