@@ -31,6 +31,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Bruno](https://andrehora.github.io/gitevo-examples/javascript/bruno.html)
 - [Gatsby](https://andrehora.github.io/gitevo-examples/javascript/gatsby.html)
 - [jQuery](https://andrehora.github.io/gitevo-examples/javascript/jquery.html)
+- [Mozilla pdf.js](https://andrehora.github.io/gitevo-examples/javascript/pdfjs.html)
 
 ## TypeScript
 - [Angular](https://andrehora.github.io/gitevo-examples/typescript/angular.html)
