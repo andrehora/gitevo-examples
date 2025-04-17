@@ -16,6 +16,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Pytest](https://andrehora.github.io/gitevo-examples/python/pytest.html)
 - [CPython](https://andrehora.github.io/gitevo-examples/python/cpython.html)
 - [Apache Airflow](https://andrehora.github.io/gitevo-examples/python/airflow.html)
+- [Celery](https://andrehora.github.io/gitevo-examples/python/celery.html)
 
 ## JavaScript
 - [React](https://andrehora.github.io/gitevo-examples/javascript/react.html)
