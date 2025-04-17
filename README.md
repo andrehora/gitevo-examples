@@ -21,8 +21,6 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [OpenAI Python API](https://andrehora.github.io/gitevo-examples/python/openai-python.html)
 - [Poetry](https://andrehora.github.io/gitevo-examples/python/poetry.html)
 
-
-
 ## JavaScript
 - [React](https://andrehora.github.io/gitevo-examples/javascript/react.html)
 - [Next.js](https://andrehora.github.io/gitevo-examples/javascript/nextjs.html)
@@ -31,6 +29,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Node](https://andrehora.github.io/gitevo-examples/javascript/node.html)
 - [Webpack](https://andrehora.github.io/gitevo-examples/javascript/webpack.html)
 - [Bruno](https://andrehora.github.io/gitevo-examples/javascript/bruno.html)
+- [Gatsby](https://andrehora.github.io/gitevo-examples/javascript/gatsby.html)
 
 ## TypeScript
 - [Angular](https://andrehora.github.io/gitevo-examples/typescript/angular.html)
