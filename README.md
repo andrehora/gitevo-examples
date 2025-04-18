@@ -21,6 +21,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [OpenAI Python API](https://andrehora.github.io/gitevo-examples/python/openai-python.html)
 - [Poetry](https://andrehora.github.io/gitevo-examples/python/poetry.html)
 - [Cookiecutter](https://andrehora.github.io/gitevo-examples/python/cookiecutter.html)
+- [Pipenv](https://andrehora.github.io/gitevo-examples/python/pipenv.html)
 
 ## JavaScript
 - [React](https://andrehora.github.io/gitevo-examples/javascript/react.html)
