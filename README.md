@@ -6,6 +6,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Flask](https://andrehora.github.io/gitevo-examples/python/flask.html)
 - [FastAPI](https://andrehora.github.io/gitevo-examples/python/fastapi.html)
 - [Django](https://andrehora.github.io/gitevo-examples/python/django.html)
+- [aiohttp](https://andrehora.github.io/gitevo-examples/python/aiohttp.html)
 - [Rich](https://andrehora.github.io/gitevo-examples/python/rich.html)
 - [Pandas](https://andrehora.github.io/gitevo-examples/python/pandas.html)
 - [PyTorch](https://andrehora.github.io/gitevo-examples/python/pytorch.html)
