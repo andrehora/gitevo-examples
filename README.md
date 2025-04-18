@@ -23,6 +23,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Cookiecutter](https://andrehora.github.io/gitevo-examples/python/cookiecutter.html)
 - [Pipenv](https://andrehora.github.io/gitevo-examples/python/pipenv.html)
 - [Reflex](https://andrehora.github.io/gitevo-examples/python/reflex.html)
+- [BentoML](https://andrehora.github.io/gitevo-examples/python/bentoml.html)
 
 ## JavaScript
 - [React](https://andrehora.github.io/gitevo-examples/javascript/react.html)
