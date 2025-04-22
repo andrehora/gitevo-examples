@@ -16,6 +16,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [scikit-learn](https://andrehora.github.io/gitevo-examples/python/scikit-learn.html)
 - [Pytest](https://andrehora.github.io/gitevo-examples/python/pytest.html)
 - [CPython](https://andrehora.github.io/gitevo-examples/python/cpython.html)
+- [Mypy](https://andrehora.github.io/gitevo-examples/python/mypy.html)
 - [Apache Airflow](https://andrehora.github.io/gitevo-examples/python/airflow.html)
 - [Celery](https://andrehora.github.io/gitevo-examples/python/celery.html)
 - [Locust](https://andrehora.github.io/gitevo-examples/python/locust.html)
