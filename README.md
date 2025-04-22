@@ -27,6 +27,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Reflex](https://andrehora.github.io/gitevo-examples/python/reflex.html)
 - [BentoML](https://andrehora.github.io/gitevo-examples/python/bentoml.html)
 - [Haystack](https://andrehora.github.io/gitevo-examples/python/haystack.html)
+- [MkDocs](https://andrehora.github.io/gitevo-examples/python/mkdocs.html)
 
 ## JavaScript
 - [React](https://andrehora.github.io/gitevo-examples/javascript/react.html)
