@@ -42,6 +42,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Phaser](https://andrehora.github.io/gitevo-examples/javascript/phaser.html)
 - [Microsoft Web Dev for Beginners](https://andrehora.github.io/gitevo-examples/javascript/web-dev-for-beginners.html)
 - [Create React App](https://andrehora.github.io/gitevo-examples/javascript/create-react-app.html)
+- [Google zx](https://andrehora.github.io/gitevo-examples/javascript/zx.html)
 
 ## TypeScript
 - [Angular](https://andrehora.github.io/gitevo-examples/typescript/angular.html)
@@ -52,6 +53,7 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [PixiJS](https://andrehora.github.io/gitevo-examples/typescript/pixijs.html)
 - [Microsoft TypeScript](https://andrehora.github.io/gitevo-examples/typescript/typescript.html)
 - [Facebook Docusaurus](https://andrehora.github.io/gitevo-examples/typescript/docusaurus.html)
+- [Google zx](https://andrehora.github.io/gitevo-examples/typescript/zx.html)
 
 ## Java
 - [Spring Boot](https://andrehora.github.io/gitevo-examples/java/spring-boot.html)
