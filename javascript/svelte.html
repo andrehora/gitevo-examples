@@ -10,12 +10,12 @@
 <body>
 	
   <div style="width: 100%; max-width: 650px; margin: 0 auto; text-align: center; background: #FFFFF">
-	  <p><a href="https://github.com/andrehora/gitevo">GitEvo</a>, created at 2025-04-17 10:05:50 -0300</p>
+	  <p><a href="https://github.com/andrehora/gitevo">GitEvo</a>, created at 2025-04-22 19:51:20 -0300</p>
 	  <hr>
 	  <h1 href="#1" style="font-size: 50px;">svelte</h1>
    	<div id="chart-wrapper"></div>
 	  <hr>
-	  <p><a href="https://github.com/andrehora/gitevo">GitEvo</a>, created at 2025-04-17 10:05:50 -0300</p>
+	  <p><a href="https://github.com/andrehora/gitevo">GitEvo</a>, created at 2025-04-22 19:51:20 -0300</p>
   </div>
 
   <script id="jsonData" type="application/json">
@@ -649,6 +649,11 @@
             options: {
               indexAxis: chartData.indexAxis,
               responsive: true,
+              scales: {
+                y: {
+                  beginAtZero: true
+                }
+              },
               plugins: {
                   colors: {
                     enabled: true,
