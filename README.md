@@ -32,6 +32,8 @@ This page hosts [GitEvo](https://github.com/andrehora/gitevo) examples.
 - [Wagtail](https://andrehora.github.io/gitevo-examples/python/wagtail.html)
 - [NetBox](https://andrehora.github.io/gitevo-examples/python/netbox.html)
 - [PyScript](https://andrehora.github.io/gitevo-examples/python/pyscript.html)
+- [PEFT](https://andrehora.github.io/gitevo-examples/python/peft.html)
+- [Airbyte](https://andrehora.github.io/gitevo-examples/python/airbyte.html)
 
 ## JavaScript
 - [React](https://andrehora.github.io/gitevo-examples/javascript/react.html)
